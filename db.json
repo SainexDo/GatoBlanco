@@ -1,0 +1,37 @@
+{
+  "users": [],
+  "products": [
+    {
+      "id": "1f7d",
+      "nombre": "Franco",
+      "descripcion": "Efecetivamente",
+      "precio": "$ 9000"
+    },
+    {
+      "id": "8cdd",
+      "nombre": "Yacith",
+      "descripcion": "qwertyu",
+      "precio": "$ 599,99"
+    },
+    {
+      "id": "f39a",
+      "nombre": "Jordy",
+      "descripcion": "hjhj",
+      "precio": "$ 10"
+    },
+    {
+      "id": "848f",
+      "nombre": "",
+      "descripcion": "",
+      "precio": "$ "
+    },
+    {
+      "id": "b6f7",
+      "nombre": "Capu",
+      "descripcion": "sisisi",
+      "precio": "$ 14.99",
+      "categorias": "Cafe"
+    }
+  ],
+  "categorias": []
+}
