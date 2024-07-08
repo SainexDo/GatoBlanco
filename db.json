@@ -31,6 +31,83 @@
       "descripcion": "sisisi",
       "precio": "$ 14.99",
       "categorias": "Cafe"
+    },
+    {
+      "id": "ce00",
+      "nombre": "Chocolate",
+      "descripcion": "1234",
+      "precio": "$ 10.99",
+      "categorias": "Batido"
+    },
+    {
+      "id": "8ec7",
+      "nombre": "Fresa",
+      "descripcion": "12345",
+      "precio": "$ 12.99",
+      "categorias": "Batido"
+    },
+    {
+      "id": "db94",
+      "nombre": "Fresa",
+      "descripcion": "qwerty",
+      "precio": "$ 12.99",
+      "categoria": "Bebidas Frias"
+    },
+    {
+      "id": "310c",
+      "nombre": "Queque de Chocolate",
+      "descripcion": "Nada",
+      "precio": "$ 22.99",
+      "categoria": "Torta"
+    },
+    {
+      "id": "ce03",
+      "nombre": "Capuchino",
+      "descripcion": "qwerty",
+      "precio": "$ 12.99",
+      "categoria": "BoxCafe"
+    },
+    {
+      "id": "53f9",
+      "nombre": "Vainilla",
+      "descripcion": "aja",
+      "precio": "$ 9.99",
+      "categoria": "Bebida Fria"
+    },
+    {
+      "id": "432b",
+      "nombre": "Choripan",
+      "descripcion": "1234",
+      "precio": "$ 20.00",
+      "categoria": "Almuerzo"
+    },
+    {
+      "id": "4082",
+      "nombre": "Banana Split ",
+      "descripcion": "qwerty",
+      "precio": "$ 6.50",
+      "categoria": "Desayuno"
+    },
+    {
+      "id": "bea6",
+      "nombre": "Mate",
+      "descripcion": "qwerty",
+      "precio": "$ 100.50",
+      "categoria": "Expresso"
+    },
+    {
+      "id": "30a5",
+      "nombre": "Gelatina",
+      "descripcion": "123467",
+      "precio": "$ 50.99",
+      "categoria": "Postre"
+    },
+    {
+      "id": "af7a",
+      "nombre": "Pinto con azucar",
+      "descripcion": "qwertui",
+      "precio": "$ 56.99",
+      "categoria": "Salado"
     }
   ],
   "categorias": []

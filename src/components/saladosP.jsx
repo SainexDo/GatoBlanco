@@ -3,15 +3,15 @@ import { productsGET } from "../services/products/Products_Get"
 
 
 
-const CafeP = () => {
+const SaladosP = () => {
 
     const [products, setProducts] = useState([])
 
 
     const renderProducts = async () => {
         const dataProducts = await productsGET()
-        const filtroCafe = dataProducts.filter(cafe => cafe.categorias === 'Cafe')
-        setProducts(filtroCafe)
+        const filtroSalados = dataProducts.filter(salados => salados.categoria === 'Salado')
+        setProducts(filtroSalados)
     }
     
     useEffect(() => {
@@ -21,14 +21,15 @@ const CafeP = () => {
   return (
     <>
     {products.map((producto) => (
-        <div key={producto.id} id="cafes">
+        <div key={producto.id} id="productosHome">
             <div>{producto.nombre}</div>
             <div>{producto.descripcion}</div>
             <div>{producto.precio}</div>
+            <div>{producto.categoria}</div>
         </div>
     ))}
     </>
   )
 }
 
-export default CafeP
+export default SaladosP
