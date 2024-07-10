@@ -10,7 +10,7 @@ const ExpressosP = () => {
 
     const renderProducts = async () => {
         const dataProducts = await productsGET()
-        const filtroExpressos = dataProducts.filter(expressos => expressos.categoria === 'Expresso')
+        const filtroExpressos = dataProducts.filter(expressos => expressos.categorias === 'Expresso')
         setProducts(filtroExpressos)
     }
     
@@ -20,16 +20,19 @@ const ExpressosP = () => {
 
   return (
     <>
+    <div id="containerProductsHome">
     {products.map((producto) => (
         <div key={producto.id} id="productosHome">
             <div>{producto.nombre}</div>
             <div>{producto.descripcion}</div>
             <div>{producto.precio}</div>
-            <div>{producto.categoria}</div>
+            <div>{producto.categorias}</div>
         </div>
     ))}
+    </div>
     </>
   )
 }
 
 export default ExpressosP
+

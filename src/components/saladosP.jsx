@@ -10,7 +10,7 @@ const SaladosP = () => {
 
     const renderProducts = async () => {
         const dataProducts = await productsGET()
-        const filtroSalados = dataProducts.filter(salados => salados.categoria === 'Salado')
+        const filtroSalados = dataProducts.filter(salados => salados.categorias === 'Salado')
         setProducts(filtroSalados)
     }
     
@@ -20,14 +20,17 @@ const SaladosP = () => {
 
   return (
     <>
+    <div id="containerProductsHome">
     {products.map((producto) => (
         <div key={producto.id} id="productosHome">
             <div>{producto.nombre}</div>
             <div>{producto.descripcion}</div>
             <div>{producto.precio}</div>
-            <div>{producto.categoria}</div>
+            <div>{producto.categorias}</div>
         </div>
     ))}
+    
+    </div>
     </>
   )
 }

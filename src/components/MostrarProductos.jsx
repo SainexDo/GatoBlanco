@@ -11,8 +11,8 @@ const MostrarProductos = () => {
 
     const renderProducts = async () => {
         const dataProducts = await productsGET()
-        // const filtroCafe = dataProducts.filter(cafe => cafe.categoria === 'Cafe')
-        setProducts(dataProducts)
+        const filtroCafe = dataProducts.filter(cafe => cafe.categoria === 'Cafe')
+        setProducts(filtroCafe)
     }
     
     useEffect(() => {
@@ -21,6 +21,7 @@ const MostrarProductos = () => {
 
   return (
     <>
+    <div id="containerProductsHome">
     {products.map((producto) => (
         <div key={producto.id}>
             <div>{producto.nombre}</div>
@@ -28,6 +29,8 @@ const MostrarProductos = () => {
             <div>{producto.precio}</div>
         </div>
     ))}
+    
+    </div>
     </>
   )
 }

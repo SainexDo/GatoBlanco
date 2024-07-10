@@ -6,19 +6,15 @@ import ExpressosP from '../components/expressosP'
 import PostresP from '../components/postresP'
 import SaladosP from '../components/saladosP'
 import TortasP from '../components/tortasP'
+import Nav from '../components/nav'
 
 
 const Home = () => {
   return (
     <>
-    <CafeP/>
+    <Nav/>  
+    <div id='imageProduct'><img id='divImageProduct' src="https://tofuu.getjusto.com/orioneat-local/resized2/yGHnouy2rKEAvrX9Y-x-1600.webp" alt="" title=""/></div>
     <BebidasFriasP/>
-    <AlmuerzosP />
-    <DesayunoP />
-    <ExpressosP />
-    <PostresP />
-    <SaladosP />
-    <TortasP />
     </>
   )
 }

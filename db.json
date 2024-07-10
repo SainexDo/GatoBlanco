@@ -26,13 +26,6 @@
       "precio": "$ "
     },
     {
-      "id": "b6f7",
-      "nombre": "Capu",
-      "descripcion": "sisisi",
-      "precio": "$ 14.99",
-      "categorias": "Cafe"
-    },
-    {
       "id": "ce00",
       "nombre": "Chocolate",
       "descripcion": "1234",
@@ -108,7 +101,196 @@
       "descripcion": "qwertui",
       "precio": "$ 56.99",
       "categoria": "Salado"
+    },
+    {
+      "id": "7b95",
+      "nombre": "RATA",
+      "descripcion": "Decsr",
+      "precio": "$ 90.69",
+      "categoria": "Expresso"
+    },
+    {
+      "id": "90d7",
+      "nombre": "",
+      "descripcion": "",
+      "precio": "$ ",
+      "categoria": "Bebida Fria"
+    },
+    {
+      "id": "5505",
+      "nombre": "",
+      "descripcion": "",
+      "precio": "$ ",
+      "categoria": "Bebida Fria"
+    },
+    {
+      "id": "5425",
+      "nombre": "Frander",
+      "descripcion": "Negro",
+      "precio": "$ 0.99",
+      "categoria": "BoxCafe"
+    },
+    {
+      "id": "51f1",
+      "nombre": "Pinto",
+      "descripcion": "erty",
+      "precio": "$ 788",
+      "categoria": "Salado"
+    },
+    {
+      "id": "f0ec",
+      "nombre": "ratwrw",
+      "descripcion": "jhsdz",
+      "precio": "jhzdsx",
+      "link": "kjhdx",
+      "categorias": "Salado"
+    },
+    {
+      "id": "6a97",
+      "nombre": "werty",
+      "descripcion": "rty",
+      "precio": "b",
+      "link": "bhu",
+      "categorias": "Salado"
+    },
+    {
+      "id": "ab70",
+      "nombre": "qwert",
+      "descripcion": "qwerty",
+      "precio": "$ 123456",
+      "categoria": "BoxCafe"
+    },
+    {
+      "id": "8b64",
+      "nombre": "qwert",
+      "descripcion": "yv",
+      "precio": "bh",
+      "link": "ibu",
+      "categorias": "BoxCafe"
+    },
+    {
+      "id": "ad96",
+      "nombre": "AJA",
+      "descripcion": "uyul",
+      "precio": "456",
+      "link": "https://tofuu.getjusto.com/orioneat-local/resized2/7PKxpXRGHGsEyQAa2-x-2000.webp",
+      "categorias": "Almuerzo"
+    },
+    {
+      "id": "d557",
+      "nombre": "FRancikkk",
+      "descripcion": "lsdbv",
+      "precio": "123456",
+      "link": "https://tofuu.getjusto.com/orioneat-local/resized2/7PKxpXRGHGsEyQAa2-x-2000.webp",
+      "categorias": "Desayuno"
+    },
+    {
+      "id": "9d20",
+      "nombre": "CCC",
+      "descripcion": "CCC",
+      "precio": "CCC",
+      "link": "CCC",
+      "categorias": "Almuerzo"
+    },
+    {
+      "id": "7973",
+      "nombre": "slh",
+      "descripcion": "slbf",
+      "precio": "skhdb ",
+      "link": "skj",
+      "categorias": "Almuerzo"
+    },
+    {
+      "nombre": "Mbappés",
+      "categorias": "Postre",
+      "descripcion": "Ricooo",
+      "precio": "9.99",
+      "id": "72bb"
+    },
+    {
+      "id": "b84b",
+      "nombre": "ff",
+      "descripcion": "sdf",
+      "precio": "7657",
+      "link": "https://tofuu.getjusto.com/orioneat-local/resized2/ndbAnsgnT5t5qfDtT-350-350.webp",
+      "categorias": "Bebida Fria"
+    },
+    {
+      "id": "6aee",
+      "nombre": "ff",
+      "descripcion": "ert",
+      "precio": "90",
+      "link": "https://tofuu.getjusto.com/orioneat-local/resized2/effu5adTGkXCvrFoo-350-350.webp",
+      "categorias": "Bebida Fria"
+    },
+    {
+      "id": "60ff",
+      "nombre": "123",
+      "descripcion": "uw",
+      "precio": "kjsa",
+      "link": "https://tofuu.getjusto.com/orioneat-local/resized2/MvCBtefXGvvPFsKm7-350-350.webp",
+      "categorias": "Bebida Fria"
+    },
+    {
+      "id": "a215",
+      "nombre": "iua",
+      "descripcion": "sbh",
+      "precio": "78",
+      "link": "https://tofuu.getjusto.com/orioneat-local/resized2/MATxQGrpYZHg489sb-350-350.webp",
+      "categorias": "Bebida Fria"
+    },
+    {
+      "id": "9f08",
+      "nombre": "DEd",
+      "descripcion": "a<h",
+      "precio": "89",
+      "link": "https://tofuu.getjusto.com/orioneat-local/resized2/3hcxbuYgXrLvtm2QL-350-350.webp",
+      "categorias": "Bebida Fria"
+    },
+    {
+      "id": "9fab",
+      "nombre": "quh",
+      "descripcion": "slhb",
+      "precio": "89",
+      "link": "https://tofuu.getjusto.com/orioneat-local/resized2/stJMmyPe3J5v5EfGe-350-350.webp",
+      "categorias": "Bebida Fria"
     }
   ],
-  "categorias": []
+  "categorias": [
+    {
+      "id": "6f32",
+      "iconTittle": "34567",
+      "categoria": "Cafe"
+    },
+    {
+      "id": "ae51",
+      "iconTittle": "78",
+      "categoria": "Expresso"
+    },
+    {
+      "id": "3712",
+      "iconTittle": "",
+      "categoria": "expresso"
+    },
+    {
+      "id": "60f0",
+      "iconTittle": "",
+      "categoria": "Postres"
+    },
+    {
+      "id": "9bd6",
+      "iconTittle": "",
+      "categoria": "Cafe"
+    },
+    {
+      "id": "e87a",
+      "iconTittle": "iu",
+      "categoria": "Cafe"
+    },
+    {
+      "id": "b02a",
+      "iconTittle": "v",
+      "categoria": "Postre"
+    }
+  ]
 }

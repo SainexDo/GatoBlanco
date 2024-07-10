@@ -1,5 +1,6 @@
 import React from 'react'
-import PostProduct from '../components/PostProduct'
+import PostresP from '../components/postresP'
+import Producto from '../components/Producto'
 
 
 
@@ -8,7 +9,8 @@ const Crud = () => {
 
   return (
     <>
-    <PostProduct/>
+    <PostresP/>
+    <Producto/>
     </>
   )
 }

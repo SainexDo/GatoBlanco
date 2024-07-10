@@ -10,7 +10,7 @@ const AlmuerzosP = () => {
 
     const renderProducts = async () => {
         const dataProducts = await productsGET()
-        const filtroAlmuerzos = dataProducts.filter(almuerzos => almuerzos.categoria === 'Almuerzo')
+        const filtroAlmuerzos = dataProducts.filter(almuerzos => almuerzos.categorias === 'Almuerzo')
         setProducts(filtroAlmuerzos)
     }
     
@@ -20,14 +20,17 @@ const AlmuerzosP = () => {
 
   return (
     <>
+    <div id="containerProductsHome">
     {products.map((producto) => (
         <div key={producto.id} id="productosHome">
             <div>{producto.nombre}</div>
             <div>{producto.descripcion}</div>
             <div>{producto.precio}</div>
-            <div>{producto.categoria}</div>
+            <div>{producto.categorias}</div>
         </div>
     ))}
+    
+    </div>
     </>
   )
 }

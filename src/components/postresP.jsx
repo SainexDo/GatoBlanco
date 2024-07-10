@@ -10,7 +10,7 @@ const PostresP = () => {
 
     const renderProducts = async () => {
         const dataProducts = await productsGET()
-        const filtroPostres = dataProducts.filter(postres => postres.categoria === 'Postre')
+        const filtroPostres = dataProducts.filter(Postres => Postres.categorias === 'Postre')
         setProducts(filtroPostres)
     }
     
@@ -20,14 +20,18 @@ const PostresP = () => {
 
   return (
     <>
+    <div id="containerProductsHome">
     {products.map((producto) => (
         <div key={producto.id} id="productosHome">
+            <div><img id="imagenProduct" src={producto.link} alt="" /></div>
             <div>{producto.nombre}</div>
             <div>{producto.descripcion}</div>
             <div>{producto.precio}</div>
-            <div>{producto.categoria}</div>
+            <div>{producto.categorias}</div>
         </div>
     ))}
+
+    </div>
     </>
   )
 }
