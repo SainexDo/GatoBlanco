@@ -12,7 +12,7 @@ const Producto = () => {
     const [iconTittle, setIconTittle] = useState('');
     const [categoria, setCategoria] = useState('');
     const [filtrar, setFiltrar] = useState('Connie');
-    const [productos, setProductos] = useState([]);ñ
+    const [productos, setProductos] = useState([]);
     const [nombre, setNombre] = useState('');
     const [descripcion, setDescripcion] = useState('');
     const [precio, setPrecio] = useState('');
