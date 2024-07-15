@@ -1,45 +1,60 @@
 {
-  "users": [],
+  "users": [
+    {
+      "id": "62ba",
+      "usuario": "Franco",
+      "correo": "franco@gmail.com",
+      "contrasena": "franco"
+    }
+  ],
   "products": [
     {
-      "nombre": "ff",
-      "categorias": "Bebida Fria",
-      "descripcion": "ert",
+      "nombre": "Almuerzo",
+      "categorias": "Almuerzo",
+      "descripcion": "000",
       "precio": "90",
-      "link": "https://tofuu.getjusto.com/orioneat-local/resized2/effu5adTGkXCvrFoo-350-350.webp",
+      "link": "https://tofuu.getjusto.com/orioneat-local/resized2/5DLEJ4EhGC74F8JwF-350-350.webp",
       "id": "6aee"
     },
     {
-      "id": "60ff",
-      "nombre": "123",
-      "descripcion": "uw",
-      "precio": "kjsa",
-      "link": "https://tofuu.getjusto.com/orioneat-local/resized2/MvCBtefXGvvPFsKm7-350-350.webp",
-      "categorias": "Bebida Fria"
-    },
-    {
-      "id": "a215",
       "nombre": "iua",
+      "categorias": "Bebida Fria",
       "descripcion": "sbh",
       "precio": "78",
       "link": "https://tofuu.getjusto.com/orioneat-local/resized2/MATxQGrpYZHg489sb-350-350.webp",
-      "categorias": "Bebida Fria"
+      "id": "a215"
     },
     {
-      "id": "9f08",
       "nombre": "DEd",
+      "categorias": "Bebida Fria",
       "descripcion": "a<h",
       "precio": "89",
       "link": "https://tofuu.getjusto.com/orioneat-local/resized2/3hcxbuYgXrLvtm2QL-350-350.webp",
-      "categorias": "Bebida Fria"
+      "id": "9f08"
     },
     {
-      "id": "9fab",
-      "nombre": "quh",
-      "descripcion": "slhb",
-      "precio": "89",
-      "link": "https://tofuu.getjusto.com/orioneat-local/resized2/stJMmyPe3J5v5EfGe-350-350.webp",
-      "categorias": "Bebida Fria"
+      "id": "034f",
+      "nombre": "Hh",
+      "descripcion": "franco",
+      "precio": "78",
+      "link": "https://tofuu.getjusto.com/orioneat-local/resized2/5DLEJ4EhGC74F8JwF-350-350.webp",
+      "categorias": ""
+    },
+    {
+      "id": "c2eb",
+      "nombre": "Uu",
+      "descripcion": "uu",
+      "precio": "jj",
+      "link": "https://tofuu.getjusto.com/orioneat-local/resized2/5DLEJ4EhGC74F8JwF-350-350.webp",
+      "categorias": ""
+    },
+    {
+      "id": "28c6",
+      "nombre": "uhbsdz",
+      "descripcion": "lhd ",
+      "precio": "idun",
+      "link": "kdj x",
+      "categorias": ""
     }
   ],
   "categorias": [
@@ -47,6 +62,26 @@
       "id": "c2d4",
       "iconTittle": "rr",
       "categoria": "Bebida Fria"
+    },
+    {
+      "id": "f172",
+      "iconTittle": "jj",
+      "categoria": "BoxCafe"
+    },
+    {
+      "id": "2071",
+      "iconTittle": "k",
+      "categoria": "Almuerzo"
+    },
+    {
+      "id": "4508",
+      "iconTittle": "oo",
+      "categoria": "Desayuno"
+    },
+    {
+      "id": "bbe5",
+      "iconTittle": "999",
+      "categoria": "Capuchino"
     }
   ]
 }

@@ -2,8 +2,6 @@ import { useEffect, useState } from "react"
 import { productsGET } from "../services/products/Products_Get"
 
 
-
-
 const MostrarProductos = () => {
 
     const [products, setProducts] = useState([])
@@ -11,8 +9,7 @@ const MostrarProductos = () => {
 
     const renderProducts = async () => {
         const dataProducts = await productsGET()
-        const filtroCafe = dataProducts.filter(cafe => cafe.categoria === 'Cafe')
-        setProducts(filtroCafe)
+        setProducts(dataProducts)
     }
     
     useEffect(() => {

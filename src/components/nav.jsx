@@ -13,6 +13,11 @@ const Nav = () => {
         <div id="tittle1">Gato</div>
         <div id="tittle2">Blanco</div>
       </div>      
+      <div id="linkTo">
+      <Link id="white" to={'/loggin'}>Iniciar Sesion</Link>
+      <Link id="white" to={'/register'}>Registrarse</Link>
+      </div>
+      
     </nav>
     </>
   )
