@@ -1,4 +1,4 @@
-const datUsers_API = 'http://localhost:3000/user/'
+const datUsers_API = 'http://localhost:3000/users/'
 
 export function POST(taskData) {
     fetch(datUsers_API, {

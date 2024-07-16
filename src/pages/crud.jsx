@@ -1,6 +1,5 @@
-import React from 'react'
-import MostrarProductos from '../components/MostrarProductos'
-import PostProduct from '../components/PostProduct'
+import Producto from '../components/Producto'
+import TablaProductos from '../components/tablaProductos'
 
 
 
@@ -9,8 +8,11 @@ const Crud = () => {
 
   return (
     <>
-    <MostrarProductos/>
-    <PostProduct/>
+    <div id='formCrud'>
+      <Producto/>
+    </div>
+
+    <TablaProductos/>
     </>
   )
 }

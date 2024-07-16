@@ -1,0 +1,47 @@
+#container_about_top {
+    background-color: #764620a5; /* Café oscuro */
+    color: #ffffff; /* Letra blanca */
+    padding: 30px;
+    margin: 2% 0 0 12%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    max-width: 800px; /* Ajusta según tus necesidades */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+#container_about_bottom {
+    background-color: #4b2e2a75; /* Café oscuro */
+    color: #ffffff; /* Letra blanca */
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800px; 
+}
+
+#container_about_top img, #container_about_bottom img {
+    width: 150px; 
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+#container_about_bottom img {
+    margin-right: 0;
+    margin-left: 20px;
+}
+#container_about_top p, #container_about_bottom p {
+    font-family: 'Georgia', serif;
+    font-size: 17px;
+    line-height: 30px;
+    margin: 0;
+}
+
+#color_to_about {
+  background-color: rgba(171, 128, 98, 0.386);
+  padding-top: 3%;
+  border-top: 1px solid rgb(168, 139, 35);
+  padding-bottom: 3%;
+}

@@ -1,9 +1,10 @@
-import React from 'react'
+import ContactComponent from "../components/contact/contactComponent"
+
 
 const Contact = () => {
   return (
     <>
-                                         {/* LUEGO */}
+      <ContactComponent/>
     </>
   )
 }

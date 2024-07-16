@@ -1,6 +1,6 @@
 const products_API = 'http://localhost:3000/products/'
 
-export async function productPUT(id, nombreEdit, categoriasEdit, descripcionEdit, precioEDit) {
+export async function productPUT(id, nombreEdit, categoriasEdit, descripcionEdit, precioEDit, image) {
     const response = await fetch(products_API + id, {
         method: 'PUT',
         headers: {
@@ -10,7 +10,8 @@ export async function productPUT(id, nombreEdit, categoriasEdit, descripcionEdit
             nombre: nombreEdit,
             categorias: categoriasEdit,
             descripcion: descripcionEdit,
-            precio: precioEDit
+            precio: precioEDit,
+            link: image,
         })
     });
     if (response.ok) {
